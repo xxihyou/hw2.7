@@ -29,7 +29,7 @@ var randomPeople = [Person]()
 var data: DataManager!
 
 func getPerson() -> [Person] {
-    for persona in 0...9 {
+    for persona in 1...10 {
         let name = data.names.first!
         data.names.remove(at: persona)
         let surname = data.surnames.first!

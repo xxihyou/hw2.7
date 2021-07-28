@@ -32,7 +32,6 @@ class TableViewController: UITableViewController {
         
         cell.contentConfiguration = content
         
-        
         return cell
     }
 
